@@ -1,0 +1,1273 @@
+.amelia_booking {
+    width: 90%;
+    margin: auto;
+}
+
+.big-heading,
+heading-btn {
+    z-index: 4;
+    margin-left: 2rem;
+}
+
+.container-fluid,
+.discount,
+section#landing_page,
+section#second_page,
+section.third_page,
+.fourth_page,
+footer,
+.subjects_box,
+.row {
+    width: 100vw;
+}
+
+section#landing_page {
+    height: 100vh;
+}
+
+a,
+b,
+p,
+h1,
+h2,
+h3,
+.nav-item,
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #71327D;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+b {
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: calc(48px + (48 - 28) * ((100vw - 300px) / (1600 - 300)));
+    padding: 15px;
+}
+
+h2 {
+    padding: 3rem 0 4rem 0;
+    font-size: calc(40px + (40 - 24) * ((100vw - 300px) / (1600 - 300)));
+    text-align: center;
+}
+
+
+.big-heading p {
+    font-size: calc(18px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+    margin-top: 6rem;
+    padding: 15px 15px 0 15px;
+}
+
+.carousel-item {
+    text-align: center;
+    margin-left: auto;
+}
+
+
+.copyright {
+    text-align: center;
+    color: #ac97b0;
+    font-size: calc(10px + (10 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.copyright a {
+    color: #ac97b0;
+}
+
+#header_logo {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+#footer_logo,
+#header_logo {
+    height: 6rem;
+}
+
+.frame {
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+    border-radius: 30px;
+}
+
+.logowanie {
+    background: #FFD93D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(3deg);
+}
+
+/* Navigation Bar */
+
+.navbar {
+    z-index: 3;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.title-image {
+    width: 45%;
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    z-index: 2;
+}
+
+.price {
+    width: 100%;
+    height: auto;
+}
+
+.subject {
+    position: relative;
+    text-align: center;
+    background: #FFD93D;
+    color: #71327D;
+    width: 27%;
+    height: auto;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.subject img {
+    border-radius: 30px;
+    opacity: 0.3;
+    width: 100%;
+    height: auto;
+}
+
+.subject img:hover {
+    opacity: 0.5;
+}
+
+.subjects_box {
+    margin-bottom: 3rem;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.shape1 {
+    opacity: 0.4;
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    width: 20%;
+    z-index: 0;
+}
+
+.shape2 {
+    position: absolute;
+    width: 5%;
+    left: 40%;
+    bottom: 5%;
+    z-index: 0;
+}
+
+.shape3 {
+    position: absolute;
+    width: 6rem;
+    top: 2rem;
+    left: 1rem;
+    z-index: 0;
+}
+
+.reason,
+.subject {
+    text-align: center;
+}
+
+.reason {
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+    border-radius: 30px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    width: 30%;
+}
+
+.reason img {
+    position: relative;
+    top: -2rem;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+    border-radius: 50px;
+	padding: 1rem;
+}
+
+.reason-img { 
+width: 8rem;
+height: 8rem;
+
+}
+
+.amelia_booking,
+.reasons,
+.carousel,
+.subjects_box {
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle {
+    display: inline;
+    background: #FFD93D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-3deg);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    color: #dedede;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon:after {
+    font-size: 72px;
+    background-color: #FFD93D;
+}
+
+.carousel-control-next-icon:after {
+    font-size: 72px;
+    background-color: #FFD93D;
+}
+
+.discount_note {
+    height: 30%;
+    margin-top: 15%;
+    padding: 1rem;
+}
+
+.discount {
+    margin-top: 2rem;
+}
+
+#rezerwacja {
+    position: absolute;
+    height: 4rem;
+    margin-left: 2rem;
+    width: auto;
+    background: #71327D;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+    border-radius: 8px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.19em;
+    text-align: center;
+    padding: 0 4rem 0 4rem;
+
+    color: #ffd861;
+    z-index: 0;
+}
+
+.heading {
+    padding: 8rem 0 0 2rem;
+}
+
+.btn-price {
+    width: 100%;
+    background: #71327D;
+    box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+    border-radius: 8px;
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    align-items: center;
+    letter-spacing: 0.19em;
+    text-align: center;
+
+    color: #ffd861;
+    z-index: 10000;
+}
+
+.btn-price:hover {
+    transition: color 0.9s ease-out;
+    background: #ffd861;
+    color: #71327D;
+    z-index: 1000;
+}
+
+.btn-price:active {
+        background: #ffd861;
+    	color: #71327D;
+}
+
+.education {
+    --bg-color: #ffd861;
+    --bg-color-light: #ffeeba;
+    --text-color-hover: #4C5656;
+    --box-shadow-color: rgba(255, 215, 97, 0.48);
+}
+
+.card {
+    width: 90%;
+    background: #fff;
+    border-radius: 30px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+        0 24px 46px var(--box-shadow-color);
+}
+
+
+.card:hover .overlay {
+	background: var(--bg-color);
+    transform: scale(11) translateZ(0);
+    z-index: 0;
+}
+
+.card:hover .circle {
+    border-color: var(--bg-color-light);
+    background: var(--bg-color);
+    z-index: 0;
+}
+
+.card:hover .circle:after {
+    background: var(--bg-color);
+    z-index: 0;
+}
+
+.card:hover p {
+    color: var(--text-color-hover);
+    z-index: 10000;
+}
+
+.card:active {
+    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+        0 15px 24px var(--box-shadow-color);
+}
+
+.card-body p,
+.card-body ul,
+.card-body li {
+    font-size: 17px;
+    color: #71327D;
+    margin-top: 30px;
+    transition: color 0.3s ease-out;
+    z-index: 1000;
+}
+
+p,
+ul,
+li {
+    z-index: 10000;
+}
+
+.card-header {
+    width: 100%;
+    z-index: 1000;
+}
+
+.circle {
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    transition: all 0.3s ease-out;
+	margin-top: 5rem;
+}
+
+.circle:after {
+    content: "";
+    width: 118px;
+    height: 118px;
+    display: hidden;
+    position: absolute;
+    background: var(--bg-color);
+    border-radius: 50%;
+    top: 7px;
+    left: 7px;
+    transition: opacity 0.3s ease-out;
+    z-index: 0;
+}
+
+.circle h2 {
+    z-index: 10000;
+    transform: translateZ(0);
+}
+
+.benefits p,
+.benefits ul {
+    position: relative;
+    z-index: 1000;
+}
+
+.overlay {
+    width: 118px;
+    position: absolute;
+    height: 118px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 0;
+    transition: transform 0.3s ease-out;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-row {
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer {
+    background: #EFE7F4;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 1380px) {
+
+    .big-heading,
+    .heading-btn {
+        z-index: 4;
+    }
+
+    .container-fluid,
+    .discount,
+    section#landing_page,
+    section#second_page,
+    section.third_page,
+    .fourth_page,
+    footer,
+    .subjects_box,
+    .row {
+        width: 100vw;
+    }
+
+    section#landing_page {
+        height: 100vh;
+    }
+
+    a,
+    p,
+    h1,
+    h2,
+    .nav-item .nav-link {
+        font-family: 'Montserrat', sans-serif;
+        color: #71327D;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: calc(48px + (48 - 28) * ((100vw - 300px) / (1600 - 300)));
+        padding: 15px;
+    }
+
+    h2 {
+        padding: 3rem 0 4rem 0;
+        font-size: calc(40px + (40 - 24) * ((100vw - 300px) / (1600 - 300)));
+        text-align: center;
+    }
+
+
+    .big-heading p {
+        font-size: calc(18px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+        margin-top: 5rem;
+        padding: 15px 15px 0 15px;
+    }
+
+    .big-heading {
+        margin-top: 25%;
+        margin-left: 2.5rem;
+    }
+
+    .carousel-item {
+        text-align: center;
+        margin-left: auto;
+    }
+
+    #header_logo {
+        margin-left: 4rem;
+        margin-top: 1rem;
+    }
+
+    #footer_logo,
+    #header_logo {
+        height: 8rem;
+    }
+
+    .logowanie {
+        background: #FFD93D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transform: rotate(3deg);
+    }
+
+    /* Navigation Bar */
+
+    .navbar {
+        z-index: 3;
+    }
+
+    .nav-item {
+        padding: 0 18px;
+        font-weight: 800;
+        font-size: 1rem;
+    }
+
+    .nav-item:last-child {
+        margin-right: 2rem;
+    }
+
+    .title-image {
+        width: 45%;
+        position: absolute;
+        right: 3%;
+        top: 2%;
+        z-index: 2;
+    }
+
+    .price {
+        width: 100%;
+        height: auto;
+    }
+
+    .subject {
+        position: relative;
+        text-align: center;
+        background: #FFD93D;
+        color: #71327D;
+        width: 27%;
+        height: auto;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .subject img {
+        border-radius: 30px;
+        opacity: 0.3;
+        width: 100%;
+        height: auto;
+    }
+
+    .subject img:hover {
+        opacity: 0.5;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+
+    .shape1 {
+        opacity: 0.4;
+        position: absolute;
+        right: 1%;
+        top: 3%;
+        width: 20%;
+        z-index: 0;
+    }
+
+    .shape2 {
+        position: absolute;
+        width: 5%;
+        left: 40%;
+        bottom: 5%;
+        z-index: 0;
+    }
+
+    .shape3 {
+        position: absolute;
+        width: 6rem;
+        top: 2rem;
+        left: 1rem;
+        z-index: 0;
+    }
+
+    .reason,
+    .subject {
+        text-align: center;
+    }
+
+    .reason {
+        background: #F4F4F4;
+        box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+        border-radius: 30px;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        width: 30%;
+    }
+
+    .reason img {
+        position: relative;
+        top: -2rem;
+        background: #F4F4F4;
+        box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+        border-radius: 50px;
+    }
+
+    .reasons,
+    .carousel,
+    .subjects_box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rectangle {
+        display: inline;
+        background: #FFD93D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transform: rotate(-3deg);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        color: #dedede;
+        opacity: 1;
+    }
+
+    .carousel-control-next-icon:after {
+        font-size: 72px;
+        background-color: #FFD93D;
+    }
+
+    .carousel-control-prev-icon:after {
+        font-size: 72px;
+        background-color: #FFD93D;
+    }
+
+    .discount_note {
+        height: 30%;
+        margin-top: 15%;
+    }
+
+    .discount {
+        margin-top: 2rem;
+    }
+
+    #rezerwacja {
+        position: absolute;
+        height: 4rem;
+        width: auto;
+        margin-left: 3rem;
+
+        background: #71327D;
+        box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+        border-radius: 8px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 40px;
+        /* identical to box height, or 125% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.19em;
+        text-align: center;
+        padding: 0 4rem 0 4rem;
+
+        color: #ffd861;
+        z-index: 0;
+    }
+
+    .heading {
+        padding: 5rem 0 0 2rem;
+    }
+
+    .btn-price {
+        width: 100%;
+        background: #71327D;
+        box-shadow: 0px 4px 4px rgba(28, 28, 28, 0.76), -5px -5px 10px rgba(28, 28, 28, 0.25);
+        border-radius: 8px;
+        position: relative;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 40px;
+        /* identical to box height, or 125% */
+        align-items: center;
+        letter-spacing: 0.19em;
+        text-align: center;
+        color: #ffd861;
+        z-index: 1000;
+    }
+
+    .btn-price:hover {
+        transition: color 0.9s ease-out;
+        background: #ffd861;
+        color: #71327D;
+        z-index: 1000;
+    }
+
+
+
+    .education {
+        --bg-color: #ffd861;
+        --bg-color-light: #ffeeba;
+        --text-color-hover: #4C5656;
+        --box-shadow-color: #ffd7617a;
+    }
+
+    .card {
+        width: 90%;
+        background: #fff;
+        border-radius: 30px;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+        transition: all 0.3s ease-out;
+        text-decoration: none;
+    }
+
+    .card:hover {
+        transform: translateY(-5px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+            0 24px 46px var(--box-shadow-color);
+    }
+
+    .card:hover .overlay {
+        transform: scale(11) translateZ(0);
+        z-index: 0;
+    }
+
+    .card:hover .circle {
+        border-color: var(--bg-color-light);
+        background: var(--bg-color);
+    }
+
+    .card:hover .circle:after {
+        background: var(--bg-color);
+    }
+
+    .card:hover p {
+        color: var(--text-color-hover);
+    }
+
+    .card:active {
+        box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+            0 15px 24px var(--box-shadow-color);
+    }
+
+    .card-body p,
+    .card-body ul {
+        font-size: 17px;
+        color: #71327D;
+        margin-top: 30px;
+        transition: color 0.3s ease-out;
+        z-index: 1000;
+    }
+
+    .card-header {
+        width: 100%;
+    }
+
+    .circle {
+        width: 131px;
+        height: 131px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid var(--bg-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 0;
+        transition: all 0.3s ease-out;
+    }
+
+    .circle:after {
+        content: "";
+        width: 118px;
+        height: 118px;
+        display: block;
+        position: absolute;
+        background: var(--bg-color);
+        border-radius: 50%;
+        top: 7px;
+        left: 7px;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .circle h2 {
+        z-index: 10000;
+        transform: translateZ(0);
+    }
+
+    .benefits p,
+    .benefits ul {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .overlay {
+        width: 118px;
+        position: absolute;
+        height: 118px;
+        border-radius: 50%;
+        background: var(--bg-color);
+        z-index: 0;
+        transition: transform 0.3s ease-out;
+    }
+
+
+    #pricing {
+        padding: 100px;
+    }
+
+    .price-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+
+    .pricing-column {
+        padding: 3% 2%;
+    }
+
+    .pricing-row {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 986px) {
+    .amelia_booking {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .card {
+        width: 80%;
+        margin: auto;
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .card:hover .overlay {
+        transform: none;
+    }
+
+    .card:hover .circle:after {
+        background: var(--bg-color);
+    }
+
+    .card:active {
+        transform: none;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: calc(28px + (28 - 26) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 30px;
+    }
+
+    h2,
+    h3 {
+        font-size: calc(22px + (22 - 20) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 30px;
+    }
+
+
+    p,
+    li,
+    .page-banner__intro p {
+        font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 20px;
+    }
+
+    .page-banner__title {
+        font-size: calc(26px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 30px;
+    }
+
+    .nav-item {
+        padding: 0 18px;
+        line-height: 5rem;
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+        font-family: "Montserrat-Light";
+    }
+
+    .navbar-toggler {
+        z-index: 6;
+        margin-right: 2rem;
+    }
+
+    .collapse,
+    .navbar-collapse {
+        background-image: url(../images/yellow.png);
+        text-align: center;
+        z-index: 4;
+        height: 100vh;
+        margin-top: -7rem;
+        padding-top: 3rem;
+    }
+
+
+    .col-sm-5 {
+        width: 40vw;
+    }
+
+    .discount {
+        margin-top: 2rem;
+    }
+
+    .price {
+        height: 100%
+    }
+
+    .discount_note {
+        font-size: calc(12px + (12 - 8) * ((100vw - 300px) / (1600 - 300)));
+        margin: auto;
+        width: 55%;
+    }
+
+    .discount_note p {
+        line-height: 15px;
+    }
+
+    iframe {
+        margin: auto;
+        width: 97%;
+    }
+
+    section#landing_page {
+        height: auto;
+    }
+
+
+    .pricing-row {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #rezerwacja {
+        margin-top: 0;
+        position: absolute;
+        height: 3rem;
+        margin-left: auto;
+        font-size: 1.5rem;
+    }
+
+    .reason {
+        width: 80%;
+    }
+
+    .title-image {
+        position: static;
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+        margin-top: 5rem;
+
+    }
+
+    #header_logo {
+        margin-left: 1rem;
+        height: 4.5rem;
+    }
+
+    .heading-btn {
+        width: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .big-heading {
+        margin-top: 3%;
+        width: auto;
+        text-align: center;
+    }
+
+    .big-heading,
+    heading-btn {
+        margin-left: auto;
+
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    section.fourth_page {
+        height: 100vh;
+    }
+
+    .subject_box {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .subject {
+        width: 80%;
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 0.7rem;
+    }
+
+    .subject img:hover {
+        opacity: 0.1;
+    }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .amelia_booking {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .card {
+        width: 80%;
+        margin: auto;
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .card:hover .overlay {
+        transform: none;
+    }
+
+    .card:hover .circle:after {
+        background: var(--bg-color);
+    }
+
+    .card:active {
+        transform: none;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: calc(28px + (28 - 26) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 30px;
+    }
+
+    h2,
+    h3 {
+        font-size: calc(22px + (22 - 20) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 30px;
+    }
+
+
+    p,
+    li,
+    .page-banner__intro p {
+        font-size: calc(16px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 20px;
+    }
+
+    .page-banner__title {
+        font-size: calc(26px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 30px;
+    }
+
+    .nav-item {
+        padding: 0 18px;
+        line-height: 5rem;
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+        font-family: "Montserrat-Light";
+    }
+
+    .navbar-toggler {
+        z-index: 6;
+        margin-right: 2rem;
+    }
+
+    .collapse,
+    .navbar-collapse {
+        background-image: url(../images/yellow.png);
+        text-align: center;
+        z-index: 4;
+        height: 100vh;
+        margin-top: -7rem;
+        padding-top: 3rem;
+    }
+
+
+    .col-sm-5 {
+        width: 40vw;
+    }
+
+    .discount {
+        margin-top: 2rem;
+    }
+
+    .discount_note {
+        font-size: calc(12px + (12 - 8) * ((100vw - 300px) / (1600 - 300)));
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .discount_note p {
+        line-height: 20px;
+    }
+
+    iframe {
+        margin: auto;
+        width: 97%;
+    }
+
+    section#landing_page {
+        height: auto;
+    }
+
+
+    .pricing-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .price {
+        display: none;
+    }
+
+    #rezerwacja {
+        margin-top: 3rem;
+        position: absolute;
+        height: 3rem;
+        margin-left: auto;
+        font-size: 1.5rem;
+    }
+
+    .reason {
+        width: 80%;
+    }
+
+    .title-image {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 10rem;
+
+    }
+
+    #header_logo {
+        margin-left: 1rem;
+        height: 4.5rem;
+    }
+
+    .heading-btn {
+        width: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .big-heading {
+        width: auto;
+        text-align: center;
+    }
+
+    .big-heading,
+    heading-btn {
+        margin-left: auto;
+
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    section.fourth_page {
+        height: 100vh;
+    }
+
+    .subject_box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subject {
+        width: 80%;
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 0.7rem;
+    }
+
+    .subject img:hover {
+        opacity: 0.1;
+    }
+}
